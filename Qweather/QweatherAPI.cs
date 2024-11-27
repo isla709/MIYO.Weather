@@ -81,7 +81,7 @@ namespace MIYO_Weather.Qweather
         /// </summary>
         /// <param name="cityname">城市ID/城市名</param>
         /// <param name="_lang"></param>
-        /// <returns></returns>
+        /// <returns>经过反序列化的Json数据</returns>
         public async Task<QW_CityFindData?> GetCityFindAsync(string cityname, string _lang = "zh")
         {
             try

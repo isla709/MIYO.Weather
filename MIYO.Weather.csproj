@@ -10,4 +10,14 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Qweather\QweatherIcon\IconFont\qweather-icons.ttf" />
+    <Resource Include="Qweather\QweatherIcon\IconFont\qweather-icons.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Qweather\QweatherIcon\IconFont\icons-list.json" />
+    <EmbeddedResource Include="Qweather\QweatherIcon\IconFont\icons-list.json" />
+  </ItemGroup>
+
 </Project>

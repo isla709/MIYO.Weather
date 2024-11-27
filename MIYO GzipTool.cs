@@ -32,10 +32,5 @@ namespace MIYO_Weather
             }
         }
 
-
-
-
-
-
     }
 }
