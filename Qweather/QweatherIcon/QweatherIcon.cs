@@ -16,7 +16,7 @@ namespace MIYO_Weather.Qweather.QweatherIcon
             return JsonConvert.DeserializeObject<iconlist>(streamReader.ReadToEnd());
         }
 
-        public static string? GetIconHex(string iconCode)
+        public static string? ConvertToFontTable(string iconCode)
         {
             var iconmap = ReadIconMap();
             for (var i = 0; i < iconmap.data.Length; i++)
